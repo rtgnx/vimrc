@@ -1,0 +1,7 @@
+PL 'leshill/vim-json'
+PL 'mmalecki/vim-node.js'
+PL 'maksimr/vim-jsbeautify'
+PL 'jason0x43/vim-js-indent'
+PL 'pangloss/vim-javascript'
+PL 'leafgarland/typescript-vim'
+PL 'Quramy/vim-js-pretty-template'
