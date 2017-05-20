@@ -18,3 +18,7 @@ Module 'lang/markdown'
 Module 'lang/completion'
 
 call g:Init()
+
+if !isdirectory(expand(g:root.'/plugins'))
+  call PlugInstall!
+endif
