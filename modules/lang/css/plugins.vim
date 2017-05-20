@@ -1,2 +1,1 @@
-PL 'ap/vim-css-color'
-
+PL 'ap/vim-css-color', {'for': 'css'}

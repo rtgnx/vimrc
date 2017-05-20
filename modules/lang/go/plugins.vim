@@ -1,1 +1,1 @@
-PL 'fatih/vim-go'
+PL 'fatih/vim-go', {'for': 'go'}

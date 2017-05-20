@@ -1,2 +1,1 @@
-PL 'shawncplus/phpcomplete.vim'
- 
+PL 'shawncplus/phpcomplete.vim', {'for': 'php'}
