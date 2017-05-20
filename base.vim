@@ -28,8 +28,10 @@ function! g:AddPlugin(...)
 	if a:0 == 0
 		return 'Plugin name required'
 	elseif a:0 == 1
-		call add(g:plugins, a:1)
-	else
+		call add(g:plugins, { 'name': a:1, 'opts': {}})
+	elseif a:0 == 2
+	  call add(g:plugins, { 'name': a:1, 'opts': a:2})
+  else 
 		return 'Too many arguments for PL command'
 	endif
 endfunction
@@ -70,8 +72,8 @@ function! g:Init()
 
 	call s:load_modules()
 	call plug#begin(g:plug_home)
-	for l:url in g:plugins
-		call plug#(l:url)
+	for l:plugin in g:plugins
+		call plug#(l:plugin.name, l:plugin.opts)
 	endfor
 	call plug#end()
 	call s:post_init()

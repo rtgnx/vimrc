@@ -1,2 +1,1 @@
-PL 'davidhalter/jedi-vim'
- 
+PL 'davidhalter/jedi-vim', {'for': 'python'}
