@@ -14,3 +14,4 @@ let g:javascript_conceal_arrow_function = "⇒"
 
 autocmd FileType js set foldmethod=syntax
 autocmd FileType jade let g:polyglot_disabled = ['javascript']
+autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
