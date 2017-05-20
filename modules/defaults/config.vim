@@ -27,6 +27,7 @@ set autowrite
 set linespace=15
 set laststatus=2
 set scrolloff=5
+set cursorline
 
 let mapleeader = ","
 let g:mapleader = ","
