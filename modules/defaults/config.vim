@@ -38,7 +38,6 @@ vnoremap > >gv
 
 " === Clipboard ===
 noremap p "*p
-noremap p "*y
 noremap yy "*yy
 noremap ya ggVGy
 
