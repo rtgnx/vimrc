@@ -1,6 +1,5 @@
 let g:OmniSharp_selector_ui = 'ctrlp'  " Use ctrlp.vim
-augroup omnisharp_commands
-    autocmd!
+augroup omnisharp_commands autocmd!
 
     "Set autocomplete function to OmniSharp (if not using YouCompleteMe completion plugin)
     autocmd FileType cs setlocal omnifunc=OmniSharp#Complete
