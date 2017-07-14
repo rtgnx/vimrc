@@ -74,3 +74,10 @@ nmap <C-l> <C-w>l
 nmap sp :split<cr>
 nmap vs :vsplit<cr>
 highlight CursorLine gui=underline ctermbg=0
+
+" === Whitespaces ====
+
+highlight ExtraWhitespace ctermbg=red guibg=red
+autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
+
+match ExtraWhitespace /\s\+$\| \+\ze\t| ^\t*\zs \+/
