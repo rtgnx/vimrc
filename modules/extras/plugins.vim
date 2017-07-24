@@ -12,3 +12,4 @@ PL 'vim-scripts/xoria256.vim'
 PL 'altercation/vim-colors-solarized'
 
 PL 'Yggdroot/indentLine'
+PL 'tpope/vim-dispatch'
