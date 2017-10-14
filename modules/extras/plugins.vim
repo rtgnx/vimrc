@@ -13,3 +13,11 @@ PL 'altercation/vim-colors-solarized'
 
 PL 'Yggdroot/indentLine'
 PL 'tpope/vim-dispatch'
+
+PL 'nightsense/carbonized'
+PL 'dim13/smyck.vim'
+PL 'baines/vim-colorscheme-thaumaturge'
+PL 'elmindreda/vimcolors'
+PL 'beigebrucewayne/hacked_ayu.vim'
+PL 'chr4/jellygrass.vim'
+PL 'Zabanaa/neuromancer.vim'
