@@ -18,16 +18,18 @@ set mouse=a
 set showmode
 set nowrap
 set relativenumber
+set number
 set smartcase
 set ignorecase
 
 set visualbell
 set noerrorbells
 set autowrite
-set linespace=15
+set linespace=5
 set laststatus=2
 set scrolloff=5
 set cursorline
+set autowrite
 
 let mapleeader = ","
 let g:mapleader = ","
