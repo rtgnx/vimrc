@@ -89,3 +89,5 @@ highlight ExtraWhitespace ctermbg=red guibg=red
 autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
 
 match ExtraWhitespace /\s\+$\| \+\ze\t| ^\t*\zs \+/
+
+autocmd FileType gitcommit DiffGitCached | wincmd J
