@@ -1,3 +1,5 @@
 PL 'ervandew/supertab'
 PL 'ludovicchabant/vim-gutentags'
-"PL 'Valloric/YouCompleteMe'
+PL 'Valloric/YouCompleteMe'
+PL 'SirVer/ultisnips'
+PL 'honza/vim-snippets'
