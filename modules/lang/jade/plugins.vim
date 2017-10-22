@@ -1,1 +1,1 @@
-PL 'digitaltoad/vim-jade', {'for': 'jade'}
+PL 'digitaltoad/vim-jade', {'for': 'pug'}
