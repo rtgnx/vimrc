@@ -5,7 +5,9 @@ nmap \ :NERDTreeToggle<cr>
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP .'
 
-let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn|node_modules|vendor)$'
+"let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn|node_modules|vendor|bin|lib|include)$'
+let g:ctrlp_custom_ignore = '\v[\/](node_modules|vendor|bin|lib|include|dist)|(\.(swp|swo|pyc|ico|git|svn))$'
+
 
 " === Tagbar === "
 let g:tagbar_autofocus = 1
