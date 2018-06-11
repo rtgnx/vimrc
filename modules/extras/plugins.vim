@@ -21,3 +21,5 @@ PL 'elmindreda/vimcolors'
 PL 'beigebrucewayne/hacked_ayu.vim'
 PL 'chr4/jellygrass.vim'
 PL 'Zabanaa/neuromancer.vim'
+
+PL 'twitvim/twitvim'
