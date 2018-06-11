@@ -93,7 +93,7 @@ match ExtraWhitespace /\s\+$\| \+\ze\t| ^\t*\zs \+/
 
 " === Git commit
 
-autocmd FileType gitcommit DiffGitCached | wincmd J
+"autocmd FileType gitcommit DiffGitCached | wincmd J
 autocmd Filetype gitcommit set textwidth=72
 
 " === Quickfix ===
