@@ -30,6 +30,7 @@ set laststatus=2
 set scrolloff=5
 set cursorline
 set autowrite
+set textwidth=78
 
 let mapleeader = ","
 let g:mapleader = ","
