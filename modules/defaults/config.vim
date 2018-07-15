@@ -46,6 +46,8 @@ set guioptions-=L  "remove left-hand scroll bar
 vnoremap < <gv
 vnoremap > >gv
 
+let g:indent_guides_enable_on_vim_startup = 1
+
 " === Clipboard ===
 noremap p "*p
 noremap y "*y
